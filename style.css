@@ -95,3 +95,31 @@ button:hover{
     margin-right: 20%;
     padding: auto;
 }
+ul {
+    list-style-type: none;
+    margin: 1%;
+    margin-top: 0.5%;
+    padding: 0;
+    overflow: hidden;
+    opacity: 70%;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: bisque;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  li a:hover {
+    border-radius: 2%;
+    opacity: 80%;  
+    background-color:teal;
+  } 
+ .navbar{
+     text-align: left;
+ } 
