@@ -1,125 +1,179 @@
-*{
-    margin: 0%;
-    padding: 0%;
+* {
+  margin: 0%;
+  padding: 0%;
 }
-body{
-    background-color: lightblue;
-    text-align: center;
-    color: white;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    font-style: normal;
-    background-image: url('https://i2.wp.com/www.dronstudy.com/wp-content/uploads//2017/11/dark-background-with-star-like-dots_bkpaotdgh__F0000.png?ssl=1');
+body {
+  background-color: black;
+  text-align: center;
+  color: white;
+  
+  font-family: cursive;
+  font-style: normal;
+  background-image: url("https://i2.wp.com/www.dronstudy.com/wp-content/uploads//2017/11/dark-background-with-star-like-dots_bkpaotdgh__F0000.png?ssl=1");
 }
-h1{
-    margin-top: 3%;
-    color: antiquewhite;
-    font-size: 40px;
+h1 {
+  margin-top: 3%;
+  color: antiquewhite;
+  font-size: 40px;
 }
-nav a{
-    display: inline-block;
-	margin: 2% 0%;
-    font-size: 20px;
-	border-radius: 5px;
-	text-decoration: none;
-	padding: 2% 12.5%;
-	background-color: #ffffff;
-	opacity: 75%;
-	border-width: 5px 40px;
+nav a {
+  display: inline-block;
+  margin: 2% 0%;
+  font-size: 23px;
+  border-radius: 5px;
+  text-decoration: none;
+  padding: 2% 12.5%;
+  background-color: #ffffff;
+  opacity: 75%;
+  border-width: 5px 40px;
 }
-a:link{
-	color: #ebcdcd;
+a:link {
+  color: #ebcdcd;
+}
+a:visited {
+  color: #1aaacc;
+}
+a:hover {
+  font-size: 25px;
+  color: tan;
+}
+a:active {
+  background-color: teal;
+}
+.current {
+  background-color: black;
+}
+form {
+  color: black;
+  background-color: #ffffff;
+  opacity: 75%;
+  margin: 0%;
+  margin-left: 20%;
+  margin-right: 20%;
+  border-radius: 5px;
+  text-decoration: none;
+  padding: 10px 14px;
+  border-width: 5px 40px;
+}
+.log {
+  color: black;
+  background-color: teal;
+  margin: 2% 5%;
+  border-radius: 5px;
+  text-decoration: none;
+  padding: 2% 4%;
+  text-align: center;
+  font-size: 20px;
+}
+.log:hover {
+  color: #000;
+  font-size: 22px;
+  background-color: blanchedalmond;
+}
+input {
+  color: black;
+  background-color: thistle;
+  margin: 1% 1%;
+  padding: 2.6% 0%;
+  width: 80%;
+  border: 2px solid black;
+  border-radius: 5px;
+  text-decoration: none;
+  font-size: 18px;
+  text-align: center;
+}
+input:hover {
+  color: black;
+  font-weight: bold;
+}
 
-}
-a:visited{
-	color: #1aaacc;
-
-}
-a:hover{
-    font-size: 25px;
-	color: tan;
-}
-a:active{
-	background-color: teal;
-}
-.current{
-	background-color: black;
-}
-form{
-    color: black;
-    background-color: #ffffff;
-    opacity: 75%;
-    margin: 0%;
-    margin-left: 20%;
-    margin-right: 20%;
-	border-radius: 5px;
-	text-decoration: none;
-	padding: 10px 14px;
-	border-width: 5px 40px;
-}
-button{
-    color: black;
-    background-color: teal;
-    margin: 2% 5%;
-	border-radius: 5px ;
-	text-decoration: none;
-	padding: 2% 4%;
-    text-align: center;
-    font-size: 20px;
-}
-input{
-    color: black;
-    background-color: thistle;
-    margin: 1% 1%;
-    padding: 2.6% 0%;
-    width: 80%;
-    border: 2px solid black;
-	border-radius: 5px ;
-	text-decoration: none;
-    font-size: 18px;
-    text-align: center;
-}
-input:hover{
-    color: black;
-    font-weight: bold;
-}
-button:hover{
-    color: #000;
-    font-size: 22px;
-    background-color: blanchedalmond;
-}
-.fp{
-    color: black;
-    text-align: center;
-    margin: 0%;
-    margin-left: 20%;
-    margin-right: 20%;
-    padding: auto;
+.fp {
+  color: black;
+  text-align: center;
+  margin: 0%;
+  margin-left: 20%;
+  margin-right: 20%;
+  padding: auto;
 }
 ul {
-    list-style-type: none;
-    margin: 1%;
-    margin-top: 0.5%;
-    padding: 0;
-    overflow: hidden;
-    opacity: 70%;
-  }
-  
-  li {
-    float: left;
-  }
-  
-  li a {
-    display: block;
-    color: bisque;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-  }
-  li a:hover {
-    border-radius: 2%;
-    opacity: 80%;  
-    background-color:teal;
-  } 
- .navbar{
-     text-align: left;
- } 
+  list-style-type: none;
+  margin: 1%;
+  margin-top: 0.5%;
+  padding: 0;
+  overflow: hidden;
+  opacity: 70%;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: bisque;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+li a:hover {
+  border-radius: 2%;
+  opacity: 80%;
+  background-color: teal;
+}
+
+div.gallery {
+  background-color: white;
+  margin: 1%;
+  border: 1% solid #ccc;
+  border-radius: 2%;
+  float: left;
+  width: 30%;
+  opacity: 80%;
+  box-shadow: 0 4px 8px 0 rgba(228, 222, 222, 0.2), 0 6px 20px 0 rgba(255, 254, 254, 0.19);
+}
+
+div.gallery:hover {
+  opacity: 100%;
+  height: 3%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(255, 255, 255, 0.19);
+}
+
+div.gallery img {
+  border-radius: 3% ;
+  width: 100%;
+  height: 60%;
+}
+
+div.desc {
+  color: #000;
+  padding: 5%;
+  text-align: center;
+}
+.prod{
+  color: black;
+  background-color: teal;
+  margin: 2% 5%;
+  border-radius: 5px;
+  text-decoration: none;
+  padding: 2% 4%;
+  text-align: center;
+  font-size: 20px;
+}
+h2{
+  margin: 3%;
+  padding: 0 2% ;
+   font-size: 70px;
+   font-family: cursive;
+   text-shadow: 2px 2px 5px black;
+   font-variant: small-caps;
+}
+h2:hover{
+  font-size: 73px;
+}
+h3{
+  margin-top: 3%;
+  padding: 0%;
+}
+h3:hover{
+  font-size: 30px;
+}
