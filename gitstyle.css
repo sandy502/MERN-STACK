@@ -1,47 +1,64 @@
-*{
-    box-sizing: border-box;
-}
 body {
   text-align: center;
 }
-.container {
-  font-size: 14px;
+h1 {
+  font-weight: normal;
+  padding: 10px;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
     Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 20px;
+}
+.mb-3,
+.mb-4,
+.accnt,
+.footerlink {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    font-size: 14px;
+}
+.mb-3,
+.mb-4{
   text-align: left;
-  background-color: #f6f8fa;
-  border: 1px solid #f6f8fa;
-  border-radius: 6px;
-  margin-left: 38%;
-  width: 25%;
-  padding: 2%;
 }
 #btn1 {
-    background-color: #2ea44f;
-  margin-top: 6%;
+  margin-top: 20px;
   width: 100%;
 }
-#btn1:hover{
-    background-color: rgb(38, 117, 38);
-    box-shadow: 1px 1px 1px 1px honeydew;
-}
-h1 {
-    margin: 2%;
-    font-weight: lighter;
-  font-size: 24px;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
-    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+.container-form {
+  padding: 15px;
+  border: 1px solid rgb(240, 240, 240);
+  border-radius: 6px;
+  background-color: azure;
 }
 .accnt {
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
-    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   font-size: 14px;
   text-align: center;
   border: 1px solid #b4b4b488;
-  margin-left: 38%;
-  margin-top: 2%;
   border-radius: 6px;
-  width: 25%;
+  margin-top: 15px;
+}
+.footerlink {
+  margin: 3%;
+}
+#foot {
+  padding: 0.2%;
+  list-style-type: none;
+  font-size: 14px;
+  text-decoration: none;
+}
+.logo {
+  text-align: center;
+  margin-top: 3%;
+}
+#foot:hover {
+  color: #5f5d5d;
+  text-decoration: underline;
+}
+#ant {
+  text-decoration: none;
+}
+#ant:hover {
+  text-decoration: underline;
 }
 p {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
@@ -49,26 +66,6 @@ p {
   margin: 2%;
   padding: 3%;
 }
-.footerlink {
-    margin: 3%;
-}
-#foot{
-    padding: 0.5%;
-    list-style-type: none;
-    font-size: 14px;
-    text-decoration: none;
-}
 .logo{
-    text-align: center;
-    margin-top: 3%;
-}
-#foot:hover{
-    color: #5f5d5d;
-    text-decoration: underline;
-}
-#ant{
-    text-decoration: none;
-}
-#ant:hover{
-    text-decoration: underline;
+  margin: 40px;
 }
