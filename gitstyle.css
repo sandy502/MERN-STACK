@@ -56,6 +56,7 @@ h1 {
 }
 #ant {
   text-decoration: none;
+  float: right;
 }
 #ant:hover {
   text-decoration: underline;
