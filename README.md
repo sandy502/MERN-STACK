@@ -1,1 +1,1 @@
-# MERN-STAKE
+# MERN-STACK
