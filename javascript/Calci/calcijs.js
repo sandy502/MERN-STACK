@@ -19,30 +19,3 @@ function clr()
 {
     document.getElementById("screen").value = "";
 }
-// buttons.addEventListener("click" , e => {
-//     if(e.target.matches("button")) {
-//         console.log("btn");
-//     }
-// })
-// buttons.forEach(function(buttons){
-//     buttons.addEventListener("click" , calculateit);
-// });
-// function calculateit(event) {
-//     const btnvalue = buttons.attribute;
-
-//     if (btnvalue == "="){
-//         if(display != ""){
-//             display.value = eval(display.value);
-//         }
-//     }
-//     else if (btnvalue == "cls"){
-//         display.value = "";
-//     }
-//     else{
-//         display.value +=btnvalue;
-//         console.log(display);
-//     };
-// };
-// let buttons = document.querySelectorAll("button.button");
-
-
