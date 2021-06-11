@@ -97,3 +97,7 @@ svg{
    
     transform: rotate(30deg);
 }
+input{
+    font-size: 26px;
+    font-weight: 100;
+}
