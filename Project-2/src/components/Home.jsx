@@ -1,18 +1,20 @@
 import React, { Component } from "react";
-import { Button, Jumbotron, Card, ProgressBar, CardColumns, form } from "react-bootstrap";
+import { Button } from "react-bootstrap";
+import "./searchcss.css";
 
-import "./Homecss.css";
-
-class Main extends Component {
+class Home extends Component {
     render() {
         return (
-            <div className="container">
-                <h2>something</h2> 
-                <img alt="" src="https://new-img.patrika.com/upload/2021/06/20/depositphotos_125187232-stock-photo-kid-earphones-listening-music-colorful_6906053-m.jpg"></img>
-                <h2>something</h2> 
+            <div className="flex-box-container">
+                <div className="headings">
+                    <img src="https://images.unsplash.com/photo-1470225620780-dba8ba36b745?ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8bXVzaWMlMjBsb3ZlcnxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&w=1000&q=80" alt="image"></img>
+                    <h1 className="centered">GO WITH THE FLOW OF MUSIC</h1>
+                    <Button className="buttonjoin" href="./Signup" >JOIN NOW</Button>
+                    <h4>STREAM THE LATEST HITS AND ENJOY THE MADNESS FOR RYTHMS</h4>
+                </div>
             </div>
-                );
+        );
     }
 }
 
-export default Main;
+export default Home;
