@@ -1,0 +1,38 @@
+
+ul {
+    display: flex;
+    flex-direction: row;
+    text-decoration: none;
+    justify-content: center;
+    list-style-type: none;
+    margin: 0;
+    padding: 0px;
+  }
+li{
+    padding: 10px;
+
+}
+li a{
+    color: white;
+    font-size: 20px;
+}
+li a:hover{
+    text-decoration: none;
+    color: turquoise;
+    font-size: 22px;
+}
+li a:current {
+    text-decoration: none;
+    color: turquoise;
+    font-size: 22px;
+}
+.musically{
+    margin: 2px;
+    padding: 5px;
+    color: black;
+ } 
+.flex-box-container{
+    margin: 0px;
+    background-color: bisque;
+    /* width: 100%; */
+}

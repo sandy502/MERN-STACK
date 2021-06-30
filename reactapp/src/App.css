@@ -1,0 +1,16 @@
+
+footer{
+  bottom: 0px;
+  margin-bottom: 0px;
+  position: sticky;
+  left: 0px;
+  background-color: black;
+  text-align: center;
+  color: aliceblue;
+  opacity: 70%;
+}
+.buttonjoin{
+  font-family: 'Times New Roman', Times, serif;
+  padding: 22px;
+  margin: 10px;
+}
